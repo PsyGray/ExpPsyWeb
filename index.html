@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>心理学实验</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="utf-8">
+<link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<style type="text/css">
+	body {
+		padding-top:45px;
+		padding-bottom:40px;
+		line-height:25px;
+		background-color:#FFFAFA;
+	}
+	
+	.carousel-inner .item img {
+		width: 100%; height: 450px;
+	}
+	
+	.footer{
+		position: absolute;
+		padding:15px;
+		width: 100%;
+		height: 22px;
+		background-color: #F5F5F5
+		}
+</style>
+
+</head>
+
+<body>
+
+<!--导航条-->
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<a class="brand" href="#">&nbsp;&nbsp;&nbsp;<i class="icon-leaf icon-white"></i> &nbsp;Psychological Experiment</a>
+		<ul class="nav pull-right">
+			<li><a href="#"><i class="icon-home icon-white"></i> <strong>首页</strong></a></li>
+			<li class="divider-vertical"></li>
+			<li><a href="#intro"><strong><i class="icon-file icon-white"></i> 实验简介</strong></a></li>
+			<li class="divider-vertical"></li>
+			<li><a href="#exp"><i class="icon-play-circle icon-white"></i> <strong>开始实验</strong></a></li>
+			<li class="divider-vertical"></li>
+			<li><a href="#data"><i class="icon-tags icon-white"></i> <strong>数据分析</strong></a></li>
+			<li class="divider-vertical"></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-user icon-white"></i> <strong>关于我们</strong><b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="#" data-toggle="tooltip" title="网页设计"><font size="3" face="黑体">陈格炜</font></a></li>
+					<li class="divider"></li>
+					<li><a href="#" data-toggle="tooltip" title="Inquisit设计"><font size="3" face="黑体">方仁晖</font></a></li>
+					<li class="divider"></li>
+					<li><a href="#" data-toggle="tooltip" title="网页设计"><font size="3" face="黑体">刘行</font></a></li>
+					<li class="divider"></li>
+					<li><a href="#" data-toggle="tooltip" title="Qualtrics设计"><font size="3" face="黑体">王洛滨</font></a></li>
+					<li class="divider"></li>
+					<li><a href="#" data-toggle="tooltip" title="Qualtrics设计"><font size="3" face="黑体">赵子豪</font></a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<!--轮播-->
+<div id="myCarousel" class="carousel slide">
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+	</ol>   
+	<div class="carousel-inner">
+		<div class="item active">
+			<img src="images/3.jpg">
+		</div>
+		<div class="item">
+			<img src="images/4.jpg">
+		</div>
+		<div class="item">
+			<img src="images/5.jpg">
+		</div>
+	</div>
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">&lsaquo;
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only"></span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">&rsaquo;
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only"></span>
+	</a>
+</div> 
+
+<hr>
+
+<!--实验介绍-->
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span8 offset2">
+			<div class="hero-unit" id="intro">
+			<h2 align="center" ><i class="icon-search"></i><font face="黑体"> 欢迎参加我们的实验!</h2>
+			<p ><font face="宋体">&nbsp;&nbsp;我们希望通过这个实验了解您对文理科生差异的看法。为了达到这一目的，您只需要填写一份问卷并完成一个小小的任务即可。问卷与任务的链接皆位于下方，请您务必先填问卷后完成任务。</p>
+			<p align="center"><font size="3" face="楷体"><i class="icon-star"></i> 任务分为文科任务与理科任务两类，您只需根据您的实际身份选择其中之一完成即可。</font>
+			<p align="center"><a href="#exp" class="btn btn-large btn-success">开始实验 <i class="icon-hand-down icon-white"></i></a></p>
+			</div>			
+<hr>
+
+<!--问卷及任务链接-->
+		<div class="row-fluid">
+			<div class="span5">
+			<p align="center"><img src="images/2.jpg" class="img-circle" height="120" width="120" ></p>
+			<h3 align="center"><i class="icon-star-empty"></i> Step 1 <i class="icon-star-empty"></i></h3>
+			<p id="exp" class="text-center"><font size="4" face="楷体">为了完成这一实验，我们首先需要了解您的一些基本情况与想法。请点击下方的问卷链接开始实验。问卷共分为三个部分，大概将花费您5-10分钟的时间。填写结束后，请您进入下一步实验。</font></p>
+			<p align="center"><a href="https://bnupsych.asia.qualtrics.com/jfe/form/SV_0O4FsVHSnXqgDzL" class="btn btn-large btn-primary"><i class="icon-list-alt icon-white"></i> 问卷 &raquo;</a></p>
+			</div>
+			
+			<div class="span5 offset2">
+			<p align="center"><img src="images/1.jpg" class="img-circle" height="120" width="120" ></p>
+			<h3 align="center"><i class="icon-star-empty"></i> Step 2 <i class="icon-star-empty"></i></h3>
+			<p class="text-center"><font size="4" face="楷体">完成问卷之后，您需要完成一个小小的词语归类任务。现在请根据您的实际身份，选择下方的“文科”或者“理科”。开始任务前，屏幕将会呈现完成该任务的具体操作，请您细心阅读！</font></p>
+				<div class="row-fluid">
+					<div class="span6 offset4">
+						<div class="btn-group">
+							<a class="btn btn-large btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-tasks icon-white"></i> 反应任务<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="https://research.millisecond.com/weicong1203/art.web"><strong><i class="icon-book"></i> 文科 &raquo;</strong></a></li>
+									<li class="divider"></li>
+									<li><a href="https://research.millisecond.com/weicong1203/science.web"><strong><i class="icon-wrench"></i> 理科 &raquo;</strong></a></li>
+								</ul>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</div>
+
+<hr>
+
+<!--数据分析-->
+<div class="row-fluid" id="data">
+<div class="span6 offset8">
+<div class="container" style="padding: 100px 50px 10px">
+	<button type="button" class="btn btn-primary btn-large popover-show" data-toggle="popover" title="分析思路" data-container="body" data-content="前人的研究表明，感受到群际威胁的群体会对敌对群体产生刻板印象。而在文科生与理科生两个群体之间经常发生冲突。因此，我们选择文理科生作为研究对象。除此以外，我们认为：研究对象的人格特质将有可能会影响研究对象产生刻板印象的过程。根据大五人格的分类及描述，我们推测在外向性、宜人性与开放性三个维度上得分越高的对象将更有可能产生刻板印象。因此，我们在实验中通过问卷测量了被试在三个人格维度上的得分，之后通过文本材料启动被试的群际威胁感，并使用几个问题来检测材料是否启动成功。最后，使用内隐联想测验来检测被试是否产生了相应的刻板印象。" 
+	data-placement="top">
+	<font face="黑体">分析思路</font>
+	</button>
+
+	<button type="button" class="btn btn-primary btn-large popover-show" data-toggle="popover" title="方法" data-container="body" data-content="根据“大五”人格量表的填写情况，分别计算被试在外向性、开放性与宜人性三个维度上的得分，并根据得分分别将被试分为高（低）外向性、高（低）开放性与高（低）宜人性个体。然后，通过计算群际威胁问卷的得分来筛选感受到群际威胁的被试。将三种人格特质分开考虑，以某一人格特质与群际威胁为自变量，以内隐联想测验的得分为因变量，进行两因素方差分析，共进行三组方差分析。" data-placement="top">
+	<font face="黑体">方法</font>
+	</button>
+				
+	<button type="button" class="btn btn-primary btn-large popover-show" data-toggle="popover" title="预期结果" data-container="body" data-content="根据假设，三组方差分析的结果将显示外向性、开放性、宜人性与群际威胁的主效应都显著，即外向性、开放性、宜人性与群际威胁感越高内隐联想测验的得分将越高，即产生了更强烈的刻板印象。并且，三种人格特质将分别与群际威胁产生交互作用。即对于在三种人格特质维度上取得高分的被试，群际威胁感越高，产生的刻板印象将越强烈。但对于低分被试，不同水平群际威胁感产生的刻板印象将不存在显著差异。" data-placement="top">
+	<font face="黑体">预期结果</font>
+	</button>
+</div>
+</div>
+</div>
+
+<!--页脚-->
+<footer class="footer">
+	<div class="container">
+		<p align="right"><font face="楷体">Copyright 2019 陈格炜 方仁晖 刘行 王洛滨 赵子豪 All right reserved.</p>
+	</div>
+</footer>
+
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap-transition.js"></script>
+<script src="assets/js/bootstrap-alert.js"></script>
+<script src="assets/js/bootstrap-modal.js"></script>
+<script src="assets/js/bootstrap-dropdown.js"></script>
+<script src="assets/js/bootstrap-scrollspy.js"></script>
+<script src="assets/js/bootstrap-tab.js"></script>
+<script src="assets/js/bootstrap-tooltip.js"></script>
+<script src="assets/js/bootstrap-popover.js"></script>
+<script src="assets/js/bootstrap-button.js"></script>
+<script src="assets/js/bootstrap-collapse.js"></script>
+<script src="assets/js/bootstrap-carousel.js"></script>
+<script src="assets/js/bootstrap-typeahead.js"></script>
+<script>
+$(function (){
+    $('.popover-show').popover();
+});
+$(function (){
+    $('.popover-show').popover();
+});
+$(function (){
+    $('.popover-show').popover();
+});
+</script>
+
+
+</body>
+</html>
